@@ -1,0 +1,13 @@
+{
+  "name": "sketch-gallery",
+  "version": "1.0.0",
+  "description": "Simple HTML template page with Bootstrap, Jquery and FontAwesome 4.7.0 CDN set up",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
