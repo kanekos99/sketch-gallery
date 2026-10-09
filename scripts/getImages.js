@@ -17,7 +17,7 @@ fs.readdir(folderPath, { withFileTypes: true }, (err, files) => {
     }
   });
 
-  imageFiles.sort((a, b) => b.name.localeCompare(a.name));
+  imageFiles.sort((a, b) => a.path.localeCompare(b.path));
   const imageList = imageFiles.map((file) => file.path);
 
   const fileContent = `const sketch_images = ${JSON.stringify(imageList, null, 2)};\n`;
