@@ -9,7 +9,7 @@ function loadImage() {
 
   galleryContainer.innerHTML = "";
 
-  images.forEach((image) => {
+  sketch_images.forEach((image) => {
     const imageThumbnail = `
         <a
           class="gallery-thumbnail shadow"
