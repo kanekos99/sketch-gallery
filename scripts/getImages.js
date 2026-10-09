@@ -24,7 +24,7 @@ fs.readdir(folderPath, { withFileTypes: true }, (err, files) => {
   imageFiles.sort((a, b) => b.time - a.time);
   const imageList = imageFiles.map((file) => file.path)
 
-  const fileContent = `const images = ${JSON.stringify(imageList, null, 2)};\n`;
+  const fileContent = `const sketch_images = ${JSON.stringify(imageList, null, 2)};\n`;
   fs.writeFileSync(outputPath, fileContent);
   console.log(
     `Successfully generated script with ${imageList.length} images!`,
