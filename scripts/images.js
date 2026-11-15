@@ -1,4 +1,5 @@
 const sketch_images = [
+  "./img/2026-11-15-doodle_animated_bg.gif",
   "./img/2026-11-08-Omegas.png",
   "./img/2026-11-06-Muling.png",
   "./img/2026-11-06_Qiu-Tang.png",
@@ -8,5 +9,6 @@ const sketch_images = [
   "./img/00-Spring.webp",
   "./img/00-Plush_v2.webp",
   "./img/00-IMG_6027.jpeg",
+  "./img/00-doodle_og.png",
   "./img/00-Autumn.webp"
 ];
